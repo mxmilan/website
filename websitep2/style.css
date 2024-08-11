@@ -1,47 +1,41 @@
 .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(83, 83, 197);
-    padding: 8px;
-    color: white;
+    background-color: purple;
     background-size: cover;
+    justify-content: space-between;
+    color: white;
+    padding: 8px;
+    align-items: center;
     margin: 0;
 }
 
-body {
+body
+{
     margin: auto;
 }
 
-.logo {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    margin-left: 70px;
+.logo
+{
+    font-size: 32px;
+    margin-left: 110px;
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none;
     display: flex;
     gap: 16px;
     padding: 4px;
-    margin-right: 70px;
- }
-
- a {
-    text-decoration: none;
-    color: white;
-    size: 20px;
+    margin-right: 80px;
 }
 
-.body1 {
+.container {
     display: flex;
-    background-color: rgb(83, 83, 197);
+    background-color: purple;
     color: white;
     font-size: 48px;
     align-items: center;
-    height: 350px;
     justify-content: space-between;
+    height: 300px;
 }
 
 .left {
@@ -52,35 +46,32 @@ ul {
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 800;
 }
 
-.text {
-    width: 300px;
+.subtext {
     font-size: 18px;
-    padding: 7px;
+    border: 6px;
+    width: 300px;
 }
 
-button {
+button.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
+    border-radius: 8px;
+    width: 90px;
     background: #3882F6;
-    border: #3882F6;
     color: white;
     font-weight: bold;
-    width: 90px;
-    border-radius: 8px;
+    border: #3882F6; 
 }
 
-.body1pic {
-    height: 200px;
-    width: 400px;
-    border-radius: 5%;
-    border: 3px solid black;
-    margin-right: 75px;
-    
+.box {
+    border: 6px solid black;
+    padding: 50px;
+    margin-right: 80px;
 }
 
 .subtitle {
@@ -90,24 +81,14 @@ button {
    margin: 50px;
 }
 
-.body2 {
+.container-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.pic {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.pictext {
-    width: 150px;
-    margin-top: 8px;
-}
-
-.body2pic {
+.test {
     display: flex;
     width: 150px;
     height: 150px;
@@ -115,54 +96,55 @@ button {
     border-radius: 8px;
 }
 
-.body3 {
+.info {
+    max-width: 200px;
+}
+
+.text {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.container-3 {
     margin-top: 50px;
-    background-color: lightgray;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    font-style: italic;
-    word-wrap: break-word;
-    width: 700px;
     margin: 80px;
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    width: 700px;
 }
 
-.person {
-    font-weight: bold;
+.name {
     font-size: 19px;
-    margin-left: 570px;
+    margin-left: 800px;
 }
 
-.body4 {
+.container-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(108, 108, 203);
+    background-color: blueviolet;
     margin: 150px;
     border-radius: 8px;
     padding: 50px;
     color: white;
 }
+
 .call {
     font-size: 20px;
     font-weight: bold;
 }
 
-.sign-up {
-    margin-left: 100px;
+.sign-up{
+    margin-right: 100px;
 }
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background: lightgray;
-    color: black;
-}
-
